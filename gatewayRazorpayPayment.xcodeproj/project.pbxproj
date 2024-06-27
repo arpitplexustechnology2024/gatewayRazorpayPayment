@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDA927B52C2DF69B00D9194F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA927B42C2DF69B00D9194F /* AppDelegate.swift */; };
+		BDA927B72C2DF69B00D9194F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA927B62C2DF69B00D9194F /* SceneDelegate.swift */; };
+		BDA927B92C2DF69B00D9194F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA927B82C2DF69B00D9194F /* ViewController.swift */; };
+		BDA927BC2C2DF69B00D9194F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDA927BB2C2DF69B00D9194F /* Base */; };
+		BDA927BE2C2DF69C00D9194F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA927BD2C2DF69C00D9194F /* Assets.xcassets */; };
+		BDA927C12C2DF69C00D9194F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDA927C02C2DF69C00D9194F /* Base */; };
+		BDA927CC2C2DF69C00D9194F /* gatewayRazorpayPaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA927CB2C2DF69C00D9194F /* gatewayRazorpayPaymentTests.swift */; };
+		BDA927D62C2DF69C00D9194F /* gatewayRazorpayPaymentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA927D52C2DF69C00D9194F /* gatewayRazorpayPaymentUITests.swift */; };
+		BDA927D82C2DF69C00D9194F /* gatewayRazorpayPaymentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA927D72C2DF69C00D9194F /* gatewayRazorpayPaymentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDA927C82C2DF69C00D9194F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA927A92C2DF69A00D9194F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA927B02C2DF69B00D9194F;
+			remoteInfo = gatewayRazorpayPayment;
+		};
+		BDA927D22C2DF69C00D9194F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA927A92C2DF69A00D9194F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA927B02C2DF69B00D9194F;
+			remoteInfo = gatewayRazorpayPayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDA927B12C2DF69B00D9194F /* gatewayRazorpayPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gatewayRazorpayPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA927B42C2DF69B00D9194F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDA927B62C2DF69B00D9194F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDA927B82C2DF69B00D9194F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDA927BB2C2DF69B00D9194F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDA927BD2C2DF69C00D9194F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDA927C02C2DF69C00D9194F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDA927C22C2DF69C00D9194F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA927C72C2DF69C00D9194F /* gatewayRazorpayPaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gatewayRazorpayPaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA927CB2C2DF69C00D9194F /* gatewayRazorpayPaymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gatewayRazorpayPaymentTests.swift; sourceTree = "<group>"; };
+		BDA927D12C2DF69C00D9194F /* gatewayRazorpayPaymentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gatewayRazorpayPaymentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA927D52C2DF69C00D9194F /* gatewayRazorpayPaymentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gatewayRazorpayPaymentUITests.swift; sourceTree = "<group>"; };
+		BDA927D72C2DF69C00D9194F /* gatewayRazorpayPaymentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gatewayRazorpayPaymentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDA927AE2C2DF69B00D9194F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA927C42C2DF69C00D9194F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA927CE2C2DF69C00D9194F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDA927A82C2DF69A00D9194F = {
+			isa = PBXGroup;
+			children = (
+				BDA927B32C2DF69B00D9194F /* gatewayRazorpayPayment */,
+				BDA927CA2C2DF69C00D9194F /* gatewayRazorpayPaymentTests */,
+				BDA927D42C2DF69C00D9194F /* gatewayRazorpayPaymentUITests */,
+				BDA927B22C2DF69B00D9194F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDA927B22C2DF69B00D9194F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDA927B12C2DF69B00D9194F /* gatewayRazorpayPayment.app */,
+				BDA927C72C2DF69C00D9194F /* gatewayRazorpayPaymentTests.xctest */,
+				BDA927D12C2DF69C00D9194F /* gatewayRazorpayPaymentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDA927B32C2DF69B00D9194F /* gatewayRazorpayPayment */ = {
+			isa = PBXGroup;
+			children = (
+				BDA927B42C2DF69B00D9194F /* AppDelegate.swift */,
+				BDA927B62C2DF69B00D9194F /* SceneDelegate.swift */,
+				BDA927B82C2DF69B00D9194F /* ViewController.swift */,
+				BDA927BA2C2DF69B00D9194F /* Main.storyboard */,
+				BDA927BD2C2DF69C00D9194F /* Assets.xcassets */,
+				BDA927BF2C2DF69C00D9194F /* LaunchScreen.storyboard */,
+				BDA927C22C2DF69C00D9194F /* Info.plist */,
+			);
+			path = gatewayRazorpayPayment;
+			sourceTree = "<group>";
+		};
+		BDA927CA2C2DF69C00D9194F /* gatewayRazorpayPaymentTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA927CB2C2DF69C00D9194F /* gatewayRazorpayPaymentTests.swift */,
+			);
+			path = gatewayRazorpayPaymentTests;
+			sourceTree = "<group>";
+		};
+		BDA927D42C2DF69C00D9194F /* gatewayRazorpayPaymentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA927D52C2DF69C00D9194F /* gatewayRazorpayPaymentUITests.swift */,
+				BDA927D72C2DF69C00D9194F /* gatewayRazorpayPaymentUITestsLaunchTests.swift */,
+			);
+			path = gatewayRazorpayPaymentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDA927B02C2DF69B00D9194F /* gatewayRazorpayPayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA927DB2C2DF69C00D9194F /* Build configuration list for PBXNativeTarget "gatewayRazorpayPayment" */;
+			buildPhases = (
+				BDA927AD2C2DF69B00D9194F /* Sources */,
+				BDA927AE2C2DF69B00D9194F /* Frameworks */,
+				BDA927AF2C2DF69B00D9194F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gatewayRazorpayPayment;
+			productName = gatewayRazorpayPayment;
+			productReference = BDA927B12C2DF69B00D9194F /* gatewayRazorpayPayment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDA927C62C2DF69C00D9194F /* gatewayRazorpayPaymentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA927DE2C2DF69C00D9194F /* Build configuration list for PBXNativeTarget "gatewayRazorpayPaymentTests" */;
+			buildPhases = (
+				BDA927C32C2DF69C00D9194F /* Sources */,
+				BDA927C42C2DF69C00D9194F /* Frameworks */,
+				BDA927C52C2DF69C00D9194F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA927C92C2DF69C00D9194F /* PBXTargetDependency */,
+			);
+			name = gatewayRazorpayPaymentTests;
+			productName = gatewayRazorpayPaymentTests;
+			productReference = BDA927C72C2DF69C00D9194F /* gatewayRazorpayPaymentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDA927D02C2DF69C00D9194F /* gatewayRazorpayPaymentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA927E12C2DF69C00D9194F /* Build configuration list for PBXNativeTarget "gatewayRazorpayPaymentUITests" */;
+			buildPhases = (
+				BDA927CD2C2DF69C00D9194F /* Sources */,
+				BDA927CE2C2DF69C00D9194F /* Frameworks */,
+				BDA927CF2C2DF69C00D9194F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA927D32C2DF69C00D9194F /* PBXTargetDependency */,
+			);
+			name = gatewayRazorpayPaymentUITests;
+			productName = gatewayRazorpayPaymentUITests;
+			productReference = BDA927D12C2DF69C00D9194F /* gatewayRazorpayPaymentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDA927A92C2DF69A00D9194F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BDA927B02C2DF69B00D9194F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BDA927C62C2DF69C00D9194F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BDA927B02C2DF69B00D9194F;
+					};
+					BDA927D02C2DF69C00D9194F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BDA927B02C2DF69B00D9194F;
+					};
+				};
+			};
+			buildConfigurationList = BDA927AC2C2DF69A00D9194F /* Build configuration list for PBXProject "gatewayRazorpayPayment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDA927A82C2DF69A00D9194F;
+			productRefGroup = BDA927B22C2DF69B00D9194F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDA927B02C2DF69B00D9194F /* gatewayRazorpayPayment */,
+				BDA927C62C2DF69C00D9194F /* gatewayRazorpayPaymentTests */,
+				BDA927D02C2DF69C00D9194F /* gatewayRazorpayPaymentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDA927AF2C2DF69B00D9194F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA927BE2C2DF69C00D9194F /* Assets.xcassets in Resources */,
+				BDA927C12C2DF69C00D9194F /* Base in Resources */,
+				BDA927BC2C2DF69B00D9194F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA927C52C2DF69C00D9194F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA927CF2C2DF69C00D9194F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDA927AD2C2DF69B00D9194F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA927B92C2DF69B00D9194F /* ViewController.swift in Sources */,
+				BDA927B52C2DF69B00D9194F /* AppDelegate.swift in Sources */,
+				BDA927B72C2DF69B00D9194F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA927C32C2DF69C00D9194F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA927CC2C2DF69C00D9194F /* gatewayRazorpayPaymentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA927CD2C2DF69C00D9194F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA927D82C2DF69C00D9194F /* gatewayRazorpayPaymentUITestsLaunchTests.swift in Sources */,
+				BDA927D62C2DF69C00D9194F /* gatewayRazorpayPaymentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDA927C92C2DF69C00D9194F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA927B02C2DF69B00D9194F /* gatewayRazorpayPayment */;
+			targetProxy = BDA927C82C2DF69C00D9194F /* PBXContainerItemProxy */;
+		};
+		BDA927D32C2DF69C00D9194F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA927B02C2DF69B00D9194F /* gatewayRazorpayPayment */;
+			targetProxy = BDA927D22C2DF69C00D9194F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDA927BA2C2DF69B00D9194F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA927BB2C2DF69B00D9194F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDA927BF2C2DF69C00D9194F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA927C02C2DF69C00D9194F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDA927D92C2DF69C00D9194F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDA927DA2C2DF69C00D9194F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDA927DC2C2DF69C00D9194F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gatewayRazorpayPayment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.gatewayRazorpayPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDA927DD2C2DF69C00D9194F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gatewayRazorpayPayment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.gatewayRazorpayPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDA927DF2C2DF69C00D9194F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.gatewayRazorpayPaymentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gatewayRazorpayPayment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gatewayRazorpayPayment";
+			};
+			name = Debug;
+		};
+		BDA927E02C2DF69C00D9194F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.gatewayRazorpayPaymentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gatewayRazorpayPayment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gatewayRazorpayPayment";
+			};
+			name = Release;
+		};
+		BDA927E22C2DF69C00D9194F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.gatewayRazorpayPaymentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gatewayRazorpayPayment;
+			};
+			name = Debug;
+		};
+		BDA927E32C2DF69C00D9194F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.gatewayRazorpayPaymentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gatewayRazorpayPayment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDA927AC2C2DF69A00D9194F /* Build configuration list for PBXProject "gatewayRazorpayPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA927D92C2DF69C00D9194F /* Debug */,
+				BDA927DA2C2DF69C00D9194F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA927DB2C2DF69C00D9194F /* Build configuration list for PBXNativeTarget "gatewayRazorpayPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA927DC2C2DF69C00D9194F /* Debug */,
+				BDA927DD2C2DF69C00D9194F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA927DE2C2DF69C00D9194F /* Build configuration list for PBXNativeTarget "gatewayRazorpayPaymentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA927DF2C2DF69C00D9194F /* Debug */,
+				BDA927E02C2DF69C00D9194F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA927E12C2DF69C00D9194F /* Build configuration list for PBXNativeTarget "gatewayRazorpayPaymentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA927E22C2DF69C00D9194F /* Debug */,
+				BDA927E32C2DF69C00D9194F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDA927A92C2DF69A00D9194F /* Project object */;
+}
