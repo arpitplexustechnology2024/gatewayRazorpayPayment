@@ -1,0 +1,16 @@
+PODS:
+  - razorpay-pod (1.3.8)
+
+DEPENDENCIES:
+  - razorpay-pod
+
+SPEC REPOS:
+  trunk:
+    - razorpay-pod
+
+SPEC CHECKSUMS:
+  razorpay-pod: c7064a37dd15fbc0e5f26776314c9a8842df1269
+
+PODFILE CHECKSUM: 735837386a2aa1870c044d08376232187d8d7999
+
+COCOAPODS: 1.15.2
